@@ -8,14 +8,16 @@ let employees: {
     firstName: string,
     lastName: string,
     age: number,
-    department: string
+    department: string,
+    hobbies: string[]
 };
 
 employees = {
     firstName: 'Blessings',
     lastName: 'James',
     age: 35,
-    department: 'IT'
+    department: 'IT',
+    hobbies: ['reading', 'swimming']
 }
 
 console.log(employees);
