@@ -1,12 +1,21 @@
-"use strict";
 // Typescript Object
-Object.defineProperty(exports, "__esModule", { value: true });
+
+import { log } from "console";
+
 //let employees: object;
-let employees;
+
+let employees: {
+    firstName: string,
+    lastName: string,
+    age: number,
+    department: string
+};
+
 employees = {
     firstName: 'Blessings',
     lastName: 'James',
     age: 35,
     department: 'IT'
-};
+}
+
 console.log(employees);
